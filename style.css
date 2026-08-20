@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #17131f;
+  color: #f5eefc;
+  font-family: "Poppins", Arial, sans-serif;
+}
+
+.perfil {
+  width: min(90%, 720px);
+  margin: 40px auto;
+  padding: 28px;
+  background-color: #241b2f;
+  border: 1px solid #4d3863;
+  border-radius: 18px;
+}
+
+h1 {
+  margin: 0 0 24px;
+  text-align: center;
+  color: #e4b8ff;
+}
+
+h2 {
+  margin: 0 0 12px;
+  color: #d7a0f7;
+}
+
+.foto-perfil {
+  display: block;
+  width: 220px;
+  height: 220px;
+  margin: 0 auto 28px;
+  object-fit: cover;
+  border: 5px solid #9c6bc1;
+  border-radius: 50%;
+}
+
+.apresentacao {
+  margin: 24px 0;
+  padding: 20px;
+  border: 2px solid #704b8c;
+  border-radius: 12px;
+  background-color: #30213e;
+}
+
+.apresentacao p {
+  margin: 0;
+  line-height: 1.7;
+}
+
+.favoritos {
+  margin-top: 24px;
+}
+
+ul {
+  margin: 12px 0 0;
+  padding-left: 24px;
+}
+
+li {
+  margin: 14px 0;
+  line-height: 1.6;
+}
+
+strong {
+  color: #e4b8ff;
+}
+
+@media (max-width: 520px) {
+  .perfil {
+    margin: 20px auto;
+    padding: 20px;
+  }
+
+  .foto-perfil {
+    width: 180px;
+    height: 180px;
+  }
+}
